@@ -1,0 +1,82 @@
+/* Reset de estilos básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #c7e5ec;
+    margin: 20px;
+}
+.imagen-container {
+    text-align: center; /* Centra el contenido */
+}
+
+.imagen-container img {
+    max-width: 100%; /* Ajusta el tamaño máximo */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+header {
+    background-color: #4fb1eb;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+header h1 {
+    font-size: 2.5em;
+}
+
+#mostrar-chihiro {
+    background-color: #55a2cf; /* Color de fondo verde */
+    color: white; /* Color de texto blanco */
+    border: none; /* Sin borde */
+    padding: 10px 10px; /* Padding interno */
+    cursor: pointer; /* Cursor de puntero al pasar */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+#mostrar-chihiro:hover {
+    background-color: #3641df;  /* Cambio de color de fondo al pasar el mouse */
+} 
+main {
+    margin: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+
+section h2 {
+    font-size: 1.5em;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #eceff0;
+    color: #1e32ee;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
